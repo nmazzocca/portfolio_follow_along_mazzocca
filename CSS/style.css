@@ -1,0 +1,21 @@
+* {
+  font-size: 24px;
+}
+
+header {
+  display: flex;
+}
+
+.logo {
+  flex: 1;
+}
+
+.name {
+  flex-grow: 8;
+  text-align: center;
+}
+
+  .navButton: {
+    flex: 1;
+    text-align: right;
+  }
