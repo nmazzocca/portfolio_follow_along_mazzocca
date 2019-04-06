@@ -4,6 +4,7 @@
     <title>Sample Portfolio Home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -17,10 +18,18 @@
       <div class="name">
         Nicki Mazzocca
       </div>
+      <nav onclick='$(".menu").toggle();'>
       <div class="navButton">
         &#9776; <!-- Results in ☰ -->
       </div>
-      <p></p>
+      <ul class="menu" style="display:none">
+          <li>Home</li>
+          <li>Interactive Design</li>
+          <li>VR & AR</li>
+          <li>Appalachian Studies</li>
+          <li>CV</li>
+      </ul>
+    </nav>
     </header>
 
     <main>
@@ -38,7 +47,7 @@
         facebook instagram linkedin
       </div>
       <div class="contact">
-        <a href="mailto: nmazzocca@gmail.com">&#9993;</a>
+        <a href="contact.html">&#9993;</a>
       </div>
       <p>footer</p>
     </footer>
