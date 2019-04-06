@@ -2,6 +2,7 @@
   font-size: 24px;
 }
 
+/* header styles */
 header {
   display: flex;
 }
@@ -19,3 +20,19 @@ header {
     flex: 1;
     text-align: right;
   }
+/* End of header styles */
+
+/* Main content style */
+main {
+  min-height: 200px;
+  border: 1px solid black;
+}
+
+/* end of main content style */
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-image: url('../images/wood.jpg');
+}
+/* End of footer styles*/
