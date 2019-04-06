@@ -52,4 +52,8 @@ footer {
   text-align: center;
   background-image: url('../images/wood.jpg');
 }
+
+.socialMedia i {
+  padding: 0 .5rem;
+}
 /* End of footer styles*/
