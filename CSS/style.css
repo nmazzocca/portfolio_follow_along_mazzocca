@@ -8,7 +8,11 @@ header {
 }
 
 .logo {
-  flex: 1;
+  flex:2;
+}
+
+.logoImage img {
+  width:100%;
 }
 
 .name {
@@ -42,9 +46,17 @@ nav {
 /* Main content style */
 main {
   min-height: 200px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
+.profileImage {
+  text-align: center;
+}
+.profileImage img {
+  width:50%;
+  border-radius: 50%;
+  overflow:hidden;
+}
 /* end of main content style */
 
 /* Footer Styles */
