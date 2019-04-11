@@ -5,6 +5,7 @@
 /* header styles */
 header {
   display: flex;
+    background-image: url('../images/colorBrick.jpg';)
 }
 
 .logo {
@@ -16,7 +17,7 @@ header {
 }
 
 .name {
-  flex-grow: 8;
+  flex-grow: 20;
   text-align: center;
 }
 
@@ -69,3 +70,33 @@ footer {
   padding: 0 .5rem;
 }
 /* End of footer styles*/
+
+@media screen and (min-width:  900px) {
+
+  section {
+    display:flex;
+  }
+    .profileImage {
+      flex:2;
+      text-align: center;
+    }
+    .profileImage img {
+      width:60%;
+    }
+    .aboutMe {
+      flex:1;
+    }
+
+  footer{
+    display:flex;
+  }
+  .copy, .socialMedia, .contact {
+    flex:1;
+  }
+  .copy{
+    text-align: right;
+  }
+  .contact {
+    text-align: left;
+  }
+}
