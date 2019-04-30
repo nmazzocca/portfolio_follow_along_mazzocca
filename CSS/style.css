@@ -67,6 +67,45 @@ main {
   border-radius: 50%;
   overflow:hidden;
 }
+
+/* styling for forms*/
+span.formLabel {
+  display:block;
+}
+
+input [type=text] {
+  width: 100%;
+  padding: .5rem .25rem;
+  margin: 8px 0;
+  box-sizing:  border-box;
+  font-size: 1rem;
+}
+div.radioContainer, div.buttonContainer {
+  display:flex;
+}
+
+div.radioContainer div span {
+  padding-left: .5rem;
+
+}
+div.buttonContainer {
+  text-align: center;
+}
+
+input [type=submit] {
+  font-size: 1rem;
+}
+
+div .twocolumns {
+  flex:1;
+}
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  height: 6rem;
+}
+/*End styleing for forms*/
+
 /* end of main content style */
 
 /* Footer Styles */
