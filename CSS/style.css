@@ -1,7 +1,21 @@
 * {
     font-family: 'Assistant', sans-serif;
 }
+/*utility classes*/
+.hidMe {
+  display: none;
+}
+.left {
+  text-align: left;
+}
 
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+/*end of utility classes*/
 body {
   font-size: 18px;
 }
@@ -67,6 +81,45 @@ main {
   border-radius: 50%;
   overflow:hidden;
 }
+
+/* styling for forms*/
+span.formLabel {
+  display:block;
+}
+
+input [type=text] {
+  width: 100%;
+  padding: .5rem .25rem;
+  margin: 8px 0;
+  box-sizing:  border-box;
+  font-size: 1rem;
+}
+div.radioContainer, div.buttonContainer {
+  display:flex;
+}
+
+div.radioContainer div span {
+  padding-left: .5rem;
+
+}
+div.buttonContainer {
+  text-align: center;
+}
+
+input [type=submit] {
+  font-size: 1rem;
+}
+
+div .twocolumns {
+  flex:1;
+}
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  height: 6rem;
+}
+/*End styleing for forms*/
+
 /* end of main content style */
 
 /* Footer Styles */
@@ -82,7 +135,7 @@ footer {
 
 @media screen and (min-width:  900px) {
 
-  section {
+  section.indexPage {
     display:flex;
   }
     .profileImage {
@@ -90,7 +143,7 @@ footer {
       text-align: center;
     }
     .profileImage img {
-      width:60%;
+      width:90%;
     }
     .aboutMe {
       flex:1;
