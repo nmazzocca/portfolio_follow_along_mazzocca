@@ -23,38 +23,58 @@
           </div>
      </div>
       <div class="name">
-        NICKI MAZZOCCA MFA PORTFOLIO
+        NICI MAZZOCCA MFA PORTFOLIO
       </div>
       <nav onclick='$(".menu").toggle();'>
       <div class="navButton">
         &#9776; <!-- Results in ☰ -->
       </div>
       <ul class="menu" style="display:none">
-          <li>Home</li>
-          <li>Interactive Design</li>
-          <li>VR & AR</li>
-          <li>Appalachian Studies</li>
-          <li>CV</li>
+          <li><a href="index.html"Home</a></li>
+          <li><a href="interactive.html"Interactive Design</a></li>
+          <li><a href="vrar.html"VR & AR</a></li>
+          <li><a href="appstudies.html"Appalachian Studies</a></li>
+          <li><a href="cv.pdf" target="_blank"CV</a></li>
       </ul>
     </nav>
     </header>
 
     <main>
       <!-- main content container for your website. -->
-      <section class="indexPage">
-        <div class="profileImage">
-          <img src="images/profilepic.jpg" alt="Nicki Profile Pic">
-        </div>
-        <div class="aboutMe">
-          <h1>Nicki Mazzocca | Scripps MFA Candidate</h1>
-          <P>Peskipiksi imperio funnunculus portus leviosa point mortis. Petrificus expecto anapneo protego. Concealment evanesco leviosa legilimens inflamarae patronum. Conjunctivitis quietus aresto mobilicorpus arania. Orchideous lumos nox mortis quietus alohomora alohomora episkey. Patronum totalus reducio impervious mobilicorpus legilimens pesternomi quietus petrificus veritaserum.</p>
+      <section>
 
-<p>Orchideous lumos nox mortis quietus alohomora alohomora episkey. Patronum totalus reducio impervious mobilicorpus legilimens pesternomi quietus petrificus veritaserum.</p>
+        <form action="http://formspree.io/nmazzocca@gmail.com" method="post">
+          <input type="hidden" name="_subjct" value="New Submission!" />
+          <input type="hidden" name="next" value="https://nmazzocca.io/portfolio_follow_along_mazzocca/thankyou.html" />
+          <input type="text" name="_gotcha" class="hideMe" />
 
-<p>Patronum totalus reducio impervious mobilicorpus legilimens pesternomi quietus petrificus veritaserum.</p>
+          <p>  Interested in collaborating on existing projects or have a new idea?  Tell me all about it!</p>
+          <span class="formLabel">First Name</span>
+          <input type="text" name="fname">
+          <span class="formLabel">Last Name</span>
+          <input type="text" name="lname">
+          <span class="formLabel">Phone Number</span>
+          <input type="text" name="phone">
+          <span class="formLabel">Email Address</span>
+          <input type="text" name="email">
+          <span class="formLabel">Local Organization</span>
+          <input type="text" name="org">
+          <span class="formLabel">Preferred Contact Method</span>
+          <div class="radioContainer">
+            <div class="twocolumns"><input type="radio" name="preferred"><span>eMail</span></div>
+            <div class="twocolumns"><input type="radio" name="preferred"><span>Phone</span></div>
+          </div>
+            <span class="formLabel">Project Details</span>
+            <textarea name="details">
+
+              </textarea>
+
+              <div class="buttonContainer">
+                <div class="twocolumns"><input type="submit" name="Send" value="Send"></div>
+                <div class="twocolumns"><input type="cancel" name="Cancel" value="Cancel"></div>
+              </div>
 
 
-        </div>
       </section>
     </main>
 
@@ -63,7 +83,10 @@
         &copy; Nicki Mazzocca
       </div>
       <div class="socialMedia">
-        <i class="fab fa-facebook-f"></i> <i class="fab fa-instagram"></i> <i class="fab fa-linkedin-in"></i> <i class="fab fa-pinterest"></i>
+        <a href="https://www.facebook.com/TheWindingRoadSEOhio/>"<i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/nmazzocca/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nicki-mazzocca-50800714/>"<i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.pinterest.com/nickitikkitavi/appalachian-tales-studies-and-music/>"<i class="fab fa-pinterest"></i></a>
       </div>
       <div class="contact">
         <a href="contact.html">&#9993;</a>
